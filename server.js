@@ -1,5 +1,5 @@
 require("express")().listen(1343);
-var prefix = "pp";
+var prefix = "p";
 //////
 /*
 require("express")().listen(1343);
@@ -19,7 +19,7 @@ const db = require("quick.db");
 const discord = require("discord.js");
 const client = new discord.Client({ disableEveryone: true });
 client.login
-("");
+("NzU2NjEwNDQyMzk0MzM3NDEw.X2UWYg.5Fvnznm3iNRxL1I34_bKCDSd5xg");
 const fetch = require("node-fetch");
 const fs = require("fs");
 
@@ -46,7 +46,7 @@ client.on("ready", () => {
 //// الاستاتس حقت البوت
 client.on("ready", () => {
   client.user.setActivity(
-    ` ${db.get("links").length} Bots / ${client.guilds.size} servers `, { type: "LISTENING" } );//التعديل علي البلاينج
+    ` ${db.get("links").length} Bots / ${client.guilds.size} servers `);//التعديل علي البلاينج
   console.log(`entered`);
 });
 const log = message => {
